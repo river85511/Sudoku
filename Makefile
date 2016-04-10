@@ -4,5 +4,5 @@ all: Sudoku.o giveQuestion.cpp solve.cpp transform.cpp
 	g++ -o transform transform.cpp Sudoku.o 
 
 Sudoku.o: Sudoku.cpp Sudoku.h
-	g++ -c Sudoku.cpp -o Sudoku.o -std=c++11
+	g++ -c Sudoku.cpp -o Sudoku.o 
 
